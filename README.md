@@ -23,7 +23,7 @@ $ cf create-service p.config-server standard configserver -c '{"git": { "uri": "
 
 Clone this project git `spring-cloud-config-credhub-nodejs-client` repository
 
-Push the Node.js Application to the same Space:
+Push the Node.js application to the same Space:
 
 ```
 $ cd spring-cloud-config-credhub-nodejs-client
