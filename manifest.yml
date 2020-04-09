@@ -1,0 +1,7 @@
+applications:
+- name: config-demo-service-nodejs-client
+  memory: 64M
+  instances: 1
+  command: node dist/index.js
+  services: 
+    - configserver
