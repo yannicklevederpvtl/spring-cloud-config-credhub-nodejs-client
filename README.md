@@ -1,4 +1,4 @@
-# Spring Cloud Config Credhub Sample
+# Spring Cloud Config Credhub + Node.js Client Sample
 
 ### Step 1
 
