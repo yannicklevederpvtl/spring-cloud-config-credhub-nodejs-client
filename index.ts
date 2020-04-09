@@ -18,7 +18,7 @@ ConfigServer.load({
   logProperties: true
 }).then(() => { // on successful load, start the application
 
-    console.log("current config:::::" + JSON.stringify(ConfigServer.current));
+    logger.info("current config:::::" + JSON.stringify(ConfigServer.current));
 
     const port = 8080;
     App.set("port", port);

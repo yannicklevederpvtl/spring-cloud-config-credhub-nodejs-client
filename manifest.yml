@@ -3,5 +3,6 @@ applications:
   memory: 64M
   instances: 1
   command: node dist/index.js
+  buildpack: nodejs_buildpack
   services: 
     - configserver
