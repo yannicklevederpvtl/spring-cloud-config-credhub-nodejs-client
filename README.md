@@ -27,6 +27,7 @@ Push the Node.js application to the same space:
 
 ```
 $ cd spring-cloud-config-credhub-nodejs-client
+$ npm install
 $ tsc
 $ cf push
 ```
